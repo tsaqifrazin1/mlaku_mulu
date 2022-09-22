@@ -10,7 +10,7 @@ export class CreateCustomerDto {
   readonly fullname: string
 
   @ApiProperty()
-  @IsNumberString()
+  @IsString()
   @IsNotEmpty()
   readonly nik: string
 
